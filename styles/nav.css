@@ -1,0 +1,13 @@
+nav {
+  position: fixed;
+  width: 80%;
+  margin: auto;
+  letter-spacing: 2px;
+  transform: translateY(-10px);
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+.line {
+  margin: auto;
+  width: 80%;
+}

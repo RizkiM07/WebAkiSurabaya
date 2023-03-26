@@ -1,0 +1,106 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  transform: translateY(70px);
+}
+
+span.ig-name:hover {
+  opacity: 100%;
+}
+
+p.ket {
+  opacity: 77%;
+}
+.galleries {
+  transform: translateX(25px);
+}
+
+footer {
+  transform: translateY(100px) !important;
+}
+
+@media (max-width: 993px) {
+  /*  */
+  footer {
+    transform: translateY(200px) !important;
+  }
+
+  section#kontak {
+    transform: translateY(100px);
+  }
+
+  section#about {
+    transform: translateY(70px);
+  }
+
+  .galleries {
+    transform: translateX(0px) !important;
+  }
+
+  section#service {
+    transform: translateY(70px);
+  }
+
+  section#gallery {
+    transform: translateY(70px);
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .galleries {
+    transform: translateX(100px) !important;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  footer {
+    transform: translateY(300px) !important;
+  }
+
+  section#kontak {
+    transform: translateY(200px);
+  }
+
+  section#about {
+    transform: translateY(200px);
+  }
+  .galleries {
+    transform: translateX(30px) !important;
+  }
+  section#service {
+    transform: translateY(200px);
+  }
+
+  section#gallery {
+    transform: translateY(200px);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    transform: translateY(190px);
+  }
+
+  section#kontak {
+    transform: translateY(200px);
+  }
+
+  section#about {
+    transform: translateY(200px);
+  }
+  .galleries {
+    transform: translateX(0px) !important;
+  }
+  section#service {
+    transform: translateY(200px);
+  }
+
+  section#gallery {
+    transform: translateY(200px);
+  }
+}

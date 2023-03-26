@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aki Surabaya</title>
+    <link rel="stylesheet" href="bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles/nav.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    /> -->
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Navbar -->
+
+    <nav class="navbar nav mt-2 is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <h2 class="navbar-item is-size-4 has-text-white">
+          <strong class="my--nav has-text-warning">Aki Surabaya</strong>
+        </h2>
+
+        <a
+          onClick="{nav}"
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#home" class="navbar-item is-size-5 nav-text ml-2"> Home </a>
+          <a href="#service" class="navbar-item is-size-5 nav-text ml-2">
+            Service
+          </a>
+          <a href="#gallery" class="navbar-item is-size-5 nav-text ml-2">
+            Gallery
+          </a>
+          <a href="#about" class="navbar-item is-size-5 nav-text ml-2">
+            About Me
+          </a>
+          <a href="#kontak" class="navbar-item is-size-5 nav-text ml-2 mr-4">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+    <hr class="line" />
+    
+    <!-- End Navbar -->
+
+    <!-- Main -->
+    <main class="mt-3 mb-6">
+      <!-- Awal Home -->
+      <section id="home">
+        <div data-aos="fade-up" class="columns mt-3">
+          <div data-aos="fade-up" class="column text mr-2">
+            <p class="is-size-5" style="opacity: 50%">Hallo, Selamat datang!</p>
+            <p class="is-size-3 mt-2">Jasa Jumper dan Ganti Aki Mobil <br/> Wilayah Surabaya dan Sidoarjo</p>
+            
+            <p class="is-size-5 has-text-justified mt-2">
+              Kami menerima jasa penggantian atau pemasangan aki mobil. Jasa
+              kami telah banyak digunakan 
+              dan <br/> terbukti secara kualitasnya. <br />
+            </p>
+            <p class="is-size-5 has-text-justified mt-2">
+              Dengan harga terjangkau kami memberikan garansi selama 1 tahun.
+              Selain itu juga menerima tukar tambah. <br />
+              Kami berada disekitar wilayah
+              Surabaya dan Sidoarjo.
+            </p>
+
+
+            <p class="is-size-4 has-text-warning"><i> Melayani pesan dan antar</i></p>
+            
+            <p class="is-size-5 mt-0" style="opacity: 50%">Follow Us</p>
+
+            <div class="column is-flex">
+              <img class="image is-32x32" src="./images/icons/instagram.png" />
+              <p class="is-size-5 k ml-3">
+                <a
+                  class="ig-text"
+                  style="opacity: 70%"
+                  target="_blank"
+                  href="https://instagram.com/bengkelakisby?igshid=YmMyMTA2M2Y="
+                  ><span id="ig-name">@Bengkelaki Sby</span></a
+                >
+              </p>
+            </div>
+            <div class="column mt-2">
+              <button class="button is-size-6 is-warning mb-3">
+                <strong>
+                  <b>
+                    <a
+                      class="has-text-dark"
+                      href="https://wa.me/+6289630708507"
+                      target="_blank"
+                      >Kirim WA</a
+                    >
+                  </b>
+                </strong>
+              </button>
+              <button class="button ml-2 is-dark">
+                <strong>
+                  <b>
+                    <a
+                      class="has-text-white"
+                      href="mailto: priyoadhi23@gmail.com"
+                      target="_blank"
+                      >Kirim E-mail</a
+                    >
+                  </b>
+                </strong>
+              </button>
+            </div>
+          </div>
+
+          <div data-aos="fade-up" class="column is-half is-flex  is-justify-content-center">
+            <figure
+              class="image is-128x128"
+              style="width: 80%; margin-top: 100px"
+            >
+              <img src="images/gantiAki.jpeg" />
+            </figure>
+          </div>
+        </div>
+
+        <!-- Carousel -->
+        <div data-aos="fade-up" class="column carousel has-text-center">
+          <div class="slides mt-6">
+            <div class="slide">
+              <img src="images/carouselmage/Carousel1.jpeg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/carouselmage/Carousel2.jpeg" alt="" />
+            </div>
+            <div class="slide">
+              <img src="images/carouselmage/Carousel3.jpeg" alt="" />
+            </div>
+            <div class="navigation">
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+            </div>
+          </div>
+
+          <p class="is-size-3 has-text-centered mt-5"> <strong> Sedia Aki Mobil 24 Jam </strong></p>
+          <p class="mt-2 is-size-5 has-text-centered " style="opacity: 70%">
+            Bermitra bersama kami dengan produk berkualitas dan hasil yang
+            memuaskan. <br />
+            Harga terjangkau dan delivery 24 jam.
+          </p>
+        </div>
+
+        <!-- CarouselScript -->
+        <script src="./scripts/carousel.js"></script>
+        <!-- EndCarouselScript -->
+
+        <!-- EndCarousel -->
+      </section>
+      <!-- End Home -->
+
+      <!-- Service -->
+      <section id="service" class="mt-5 has-background-light p-6 mb-6">
+        
+        <p class="is-size-3 mb-6 has-text-centered">Keunggulan Layanan Kami</p>
+        <div data-aos="fade-up" class="columns"  >
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/dollar.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered" ><strong class="has-text-warning"> Harga Terbaik</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Jaminan harga terjangkau.</p>
+          </div>
+
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/like.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered"><strong class="has-text-warning"> Kualitas Terjamin</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Produk kami sudah terbukti kualitasnya.</p>
+          </div>
+
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/guarantee.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered"><strong class="has-text-warning"> Garansi 1 Tahun</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Kami berikan garansi selama 1 tahun.</p>
+          </div>
+          
+          
+
+          
+
+         
+
+          
+        </div>
+
+        <div  data-aos="fade-up" class="columns mt-4"  >
+          
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/change.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered" ><strong class="has-text-warning">Terima Tukar Tambah</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Kami menerima tukar tambah barang lama maupun baru.</p>
+          </div>
+
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/settings.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered"><strong class="has-text-warning"> Gratis Kirim & Pasang</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Gratis pengiriman dan pemasangan.</p>
+          </div>
+
+          <div class="column  mr-3">
+            <figure class="image is-96x96" style="width: 100%; padding: 5px;">
+              <img src="images/icons/star.png" style="width: 96px; margin: 0 auto" />
+            </figure>
+            <h4 class="mt-4 is-size-4 has-text-centered"><strong class="has-text-warning"> Teknisi Berpengalaman</strong></h2>
+            <p class="is-size-4 has-text-centered ket">Teknologi kami proseional dan terlatih.</p>
+          </div>
+          
+          
+
+          
+
+         
+
+          
+        </div>
+      </section>
+      <!-- EndService -->
+
+      <!-- Gallery -->
+      <section id="gallery" class="has-background-primary p-6">
+        <p class="is-size-3 mb-5 has-text-centered has-text-white">Gallery</p>
+
+        <div data-aos="fade-up" class="columns is-flex-wrap-wrap galleries">
+
+          <div class="column has-text-centered is-flex is-flex-direction-row is-flex-wrap-wrap ">
+          
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery1.jpeg">
+            </figure>  
+
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery2.jpeg">
+            </figure>  
+
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery3.jpeg">
+            </figure> 
+
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery4.jpeg">
+            </figure>
+
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery5.jpeg">
+            </figure>
+
+            <figure class="image mr-3 mt-3">
+              <img style="width: 300px; height: 300px;" src="images/gallery/gallery6.jpeg">
+            </figure>  
+
+          </div>
+        
+        </div>
+
+      </section>
+      <!-- EndGallery -->
+
+      <!-- About -->
+      <section id="about" class="mt-6 mb-6 p-4">
+        <div class="columns is-full-width">
+
+          <div data-aos="fade-up" class="column is-half">
+            <p class="is-size-4 mb-3"><strong>Lokasi Kami</strong></p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44770.98257261893!2d112.69993507553244!3d-7.327687501719489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb61feca9dd3%3A0x4c192a6c3063351!2sKec.%20Jambangan%2C%20Kota%20SBY%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1660547407361!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div  data-aos="fade-up" class="column is-half ml-3">
+            <p class="is-size-4 mb-3"><strong>Tentang Kami</strong></p>
+            <figure class="image mb-3 is-full-width" >
+              <img class="is-rounded" style="width: 170px; margin:0 auto"  src="images/icons/accumulator.png">
+            </figure>
+            <div class="box">
+                <p class="is-size-5">Kami merupakan jasa ganti dan pasang aki mobil dengan teknologi profesional yang terlatih. <br/> Kami menemeberikan layanan yang terbaik dan menerima antar pesan wilayah Surabaya dan Sidoarjo</p>
+                <p class="mt-3"><i class="has-text-warning is-size-5"> Tuggu apalagi, Segera hubungi kontak di bawah. <br/>
+                Dan rasakan pengalaman yang memuaskan. </i></p>
+
+                <a href="#kontak" class="button mt-2 has-text-white has-background-danger"> <b> Kontak Kami </b>  </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- EndAbout -->
+
+      <!-- Contact -->
+      <section id="kontak" class="mt-6">
+
+        <div class="columns is-full-width box mb-5" style="background-color: orange; opacity: 100%;">
+          
+          <div class="column is-flex is-flex-direction-column is-justify-content-center">
+            <figure class="mr-2">
+              <img src="images/icons/instagram.png" class="image is-64x64" style="margin: auto" alt="">
+            </figure>
+
+            <a href="https://instagram.com/bengkelakisby?igshid=YmMyMTA2M2Y="  target="_blank" class="is-rounded mt-4 button has-background-warning" style="letter-spacing: 2px;"><b style="opacity: 70%;"> DM Instagram </b></a>
+          </div>
+          
+          <div class="column is-flex is-flex-direction-column is-justify-content-center">
+            <figure class="mr-2">
+              <img src="images/icons/whatsapp.png" style="margin: auto" class="image is-64x64" alt="">
+            </figure>
+            <a target="_blank" href="https://wa.me/+6289630708507" class=" is-rounded mt-4 button has-text-white has-background-danger" style="letter-spacing: 2px;"><b style="opacity: 100%;"> Kontak WA </b></a>
+          </div>
+          
+          <div class="column is-flex is-flex-direction-column is-justify-content-center">
+            <figure class="mr-2">
+              <img src="images/icons/email.png" style="margin: auto" class="image is-64x64" alt="">
+            </figure>
+            <a href="mailto: priyoadhi23@gmail.com" target="_blank" class=" is-rounded mt-4 button has-background-warning" style="letter-spacing: 2px;"><b style="opacity: 70%;"> Kirim E-mail </b></a>
+          </div>
+        </div>      
+
+      </section>
+      <!-- EndContact -->
+    </main>
+    <!-- EndMain -->
+
+    <!-- Footer  -->
+      <footer data-aos="fade-up" class="footer mt-6 has-background-dark is-flex is-flex-direction-column has-text-centered is-justify-content-center">
+
+          <p class="has-text-white has-text-centered is-size-4 mt-6">Bengkel Aki | Bengkel Aki Surabaya | Bengkel Aki Sidoarjo | Aki Mobil Surabaya | Aki Mobil Sidoarjo</p>
+
+          <p class="has-text-white has-text-centered is-size-4 mt-3">Pesan Antar Aki Mobil &copy Surabaya Sidoarjo</p>
+      </footer>
+    <!-- EndFooter -->
+  </body>
+</html>
